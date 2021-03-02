@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Department</class>
+ <widget class="QDialog" name="Department">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+    <pointsize>8</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(167, 173, 255);
+font: 8pt &quot;Times New Roman&quot;;
+color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>40</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;
+color:rgb(255, 255, 255)
+</string>
+   </property>
+   <property name="text">
+    <string>Register/Sign Up</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Email">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 16pt &quot;Times New Roman&quot;;
+
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Email</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>180</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 16pt &quot;Times New Roman&quot;;
+colorr: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="email">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>130</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Times New Roman&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>180</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Times New Roman&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="signupbutton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>350</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 16pt &quot;Times New Roman&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(42, 42, 42);</string>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 16pt &quot;Times New Roman&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Confirm Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="confirmpassword">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>230</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Times New Roman&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>290</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 26pt &quot;Times New Roman&quot;;
+font: 14pt &quot;Times New Roman&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Department</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="SELECT">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>290</y>
+     <width>211</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>8</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255)</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>SELECT</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dean/Principal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HOD CS Department</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HOD CE  Department</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HOD ME Department </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HOD EC Department</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>420</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+
+font: 14pt &quot;Times New Roman&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Already have an account</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="signinButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>420</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sign In</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>260</y>
+     <width>241</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>password can contain numbers and letters(max 10).</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
