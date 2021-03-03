@@ -1,0 +1,14 @@
+import json
+
+def lambda_handler(event, context):
+    # TODO implement 
+    FIRST_NUM = 10
+    SECOND_NUM = 20
+    RESULT = FIRST_NUM + SECOND_NUM
+    
+    return {
+         
+        'RESULT': json.dumps(RESULT)
+        
+       
+    }
